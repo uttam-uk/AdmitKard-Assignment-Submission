@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Background color for the entire page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center content vertically on the page */
+}
+
+.mobile-number-screen {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Background color for the mobile screen */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  max-width: 300px; /* Limit the width of the mobile screen */
+}
+
+.mobile-number-screen h2,
+.otp-verification-screen h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Text color */
+}
+
+.mobile-number-screen input,
+.otp-verification-screen input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none; /* Remove input box outline */
+}
+
+.mobile-number-screen button,
+.otp-verification-screen button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mobile-number-screen button:hover,
+.otp-verification-screen button:hover {
+  background-color: #0056b3;
+}
