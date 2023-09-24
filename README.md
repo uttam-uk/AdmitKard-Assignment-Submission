@@ -8,7 +8,7 @@ Individual can Enter Mobile Number Get OTP and Verified for Login.
 
 ## List  dependencies that need to be installed before setting up your project. 
 
-- Node.js (v14 or higher)
+- Node.js 
 - Twilio API account (with API credentials)
 - React.js (Front-End)
 
