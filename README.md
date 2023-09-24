@@ -14,8 +14,9 @@ Individual can Enter Mobile Number Get OTP and Verified for Login.
 
 
 ### For Server Start
-- Cd Back-End 
+- cd Back-End 
 - npm run dev (command)
 
 ### For Front-End Start
+- cd front-end
 - npm start
